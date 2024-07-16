@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="logo.png">
+    <title>Indian Cricket Team</title>
+</head>
+<style type="text/css">
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.main{
+    background-color: #030A55;
+    height: 60px;
+    width: 100%;
+    color: white;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+
+}
+.ict>h4{
+    height: 60px;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    width: fit-content;
+    position: absolute;
+    top: 12px;
+    right: 40%; 
+    
+}
+img{
+    position: relative;
+    right:160px;
+    height: 60px;
+    width: auto;
+}
+
+.ict_home{
+    color: white;
+    text-decoration: none;
+}
+
+.nav{
+    height: 40px;
+    width: 100%;
+    background-color: rgb(247, 252, 252);
+    position: absolute;
+    top: 60px;
+    border: 1px solid rgb(194, 191, 191);
+    border-top: none;
+    display: block;
+}
+
+.index{
+    color: rgb(110, 106, 106);
+    display: inline-block;
+    width: fit-content;
+    border: 1px solid rgb(187, 181, 181);
+    border-top: 0px;
+    border-bottom: 0;
+    border-right: 0;
+    padding: 10px;
+    margin-right: 10px ;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+.gallery{
+    background: url("background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-self: center;
+    position: relative;
+    top: 40px;
+    gap: 2px;
+}
+/* .g{
+    display: flex;
+    margin: auto;
+    align-items: center;
+} */
+
+.gallery>img{
+    
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    width: 120px;
+    height: 300px;
+    border: 1px solid rgb(250, 248, 248);
+    border-radius: 10px;
+    transition: all ease 0.5s;
+}
+.gallery>img:hover{
+    width: 50%;
+    height: 300px;
+
+}
+
+.hgallery{
+    height: 45px;
+    width: 100%;
+    background-color: #ecedf8;
+    text-align: center;
+
+}
+
+.heading{
+    position: absolute;
+    bottom: 20px;
+    left: 10px;
+}
+
+.match{
+    padding-top: 25px;
+    width: 95%;
+    height: 600px;
+    /* background-color: rgb(243, 242, 242);/ */
+    background: url(bg7.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    border-radius: 10px;
+    padding-left: 30px;
+    font-size: 35px;
+    font-weight: 550;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: relative;
+    top: 50px;
+    margin: 25px;
+    
+}
+
+.mch1{
+    position: absolute;
+    top:90px;
+    left:55px;
+    width: auto;
+    height: 200px;
+    border-radius: 10px;
+    border: 2px solid white;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+}
+    
+.mch2{
+    position: absolute;
+    top:90px;
+    left:520px;
+    width: auto;
+    height: 200px;
+    border-radius: 10px;
+    border: 2px solid white;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+}
+    
+.mch3{
+    position: absolute;
+    top:350px;
+    right:110px;
+    width: auto;
+    height: 200px;
+    border-radius: 10px;
+    border: 2px solid white;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+}
+    
+.mch4{
+    position: absolute;
+    top:350px;
+    left:55px;
+    width: auto;
+    height: 200px;
+    border-radius: 10px;
+    border: 2px solid white;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+}
+    
+.mch5{
+    position: absolute;
+    top:350px;
+    left:525px;
+    width: auto;
+    height: 200px;
+    border-radius: 10px;
+    border: 2px solid white;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+}
+    
+.mch6{
+    position: absolute;
+    top:90px;
+    right:110px;
+    width: auto;
+    height: 200px;
+    border-radius: 10px;
+    border: 2px solid white;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+}
+
+
+    .honours{
+        padding: 20px;
+        width: 100%;
+        height: 250px;
+        background: url("bg6.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        font-size: 35px;
+        font-weight: 550;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        padding-left: 30px;
+        margin-top: 80px;
+    }
+
+    .cup{
+        height: 300px;
+        width: 295px;
+        display: inline-block;
+        position: relative;
+        bottom: -50px;
+        margin: 0 10px;
+        border-radius: 10px;
+        
+        
+    }
+    .cup>img{
+        width: auto;
+        height: auto;
+        position: absolute;
+        left: 0px;
+        border-radius: 10px;
+        border: 1px solid white;
+        
+        
+    }
+
+    .footer{
+        width: 100%;
+        height: 400px;
+        background: url("bg3.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-top: 200px;
+        position: relative;
+    }
+
+    .d1{
+        width: 100px;
+        height: 100px;
+        position: absolute;
+        margin: 30px 20px;
+    }
+
+    .d1>img{
+        height: 80px;
+        width: auto;
+        position: relative;
+        left: 8px;
+    }
+  
+table{
+    position: relative;
+    top: 130px;
+    left: 10px;
+}
+
+th{
+    color: white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 350;
+    font-size: larger;
+    padding: 0px 50px 0px 0px;
+    text-align: left;
+    padding-bottom: 10px;
+}
+
+td{
+    color: white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15;
+    padding: 0px 50px 0px 0px;
+
+}
+
+</style>
+
+<body>
+
+<div class="main"> 
+   <div class="ict">
+       <a href="cricket.html"> <img src="logo.png" ></a> 
+       <h4 style="display: inline-block;"><a href="cricket.html" class="ict_home">Indian Cricket Team</a></h4> 
+   </div> 
+   
+<div class="nav">
+    <a href="cricket.html"> <div class="index">Home</div></a>
+    <a href="players.html"> <div class="index">Players</div></a>
+    <a href="videos.html"> <div class="index">Videos</div></a>
+    <!-- <a href="news.html"> <div class="index">News</div></a> -->
+</div>
+
+</div>
+
+
+    <div class="gallery">
+        
+    <img src="Virat.jpg" >
+    <img src="Dhoni.jpg" >
+    <img src="Sachin.jpg" >
+    <img src="Ganguly.jpg" >
+    <img src="kapil.jpg" ><br>
+
+    <div class="heading"><font size="6px" color="White">G.&nbsp;&nbsp;&nbsp;&nbsp;O.&nbsp;&nbsp;&nbsp;&nbsp;A.&nbsp;&nbsp;&nbsp;&nbsp;T. :&nbsp;&nbsp;&nbsp;&nbsp;</font><font size="2px" color="white">Enter the hallowed domain of Indian cricket's elite. Our G.O.A.T section honors Virat Kohli, the modern batting sensation; MS Dhoni, the strategic captain and master finisher; Sachin Tendulkar, the &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;immortal 'Master Blaster'; Sourav Ganguly, the dynamic leader who reshaped Indian cricket; and Kapil Dev, the iconic all-rounder and 1983 World Cup hero.</font></div>
+</div>
+<div class="match"> Matches<br><br> 
+   
+<img src="match1.png" alt="" class="mch1">
+<img src="match2.png" alt="" class="mch2">
+<img src="match3.png" alt="" class="mch3">
+<img src="match4.png" alt="" class="mch4">
+<img src="match5.png" alt="" class="mch5">
+<img src="match6.png" alt="" class="mch6">
+
+
+
+
+</div>
+
+<div class="honours"><font color="White"> Honours <br></font>
+<div class="cup"><img src="1983.png"></div>
+<div class="cup"><img src="2000.png"></div>
+<div class="cup"><img src="2007.png"></div>
+<div class="cup"><img src="2008.png"></div>
+
+</div>
+
+<div class="footer">
+    <div class="d1"><img src="logo.png"></div>
+
+   <table>
+<tr>
+    <th >Contact Us</th>
+    <th>Videos</th>
+    <th>News</th>
+    <th>Indian Cricket Team</th>
+</tr>
+
+<tr> 
+    <td>4th Floor, Cricket Centre</td> 
+    <td> khali</td>
+    <td> khali</td>
+    <td> Copyrights</td>
+</tr>
+
+ <tr><td>Wankhede Stadium ‘D’ Road,</td>
+     <td>Khali</td>
+     <td>Khali</td>
+     <td>Terms and Conditions</td>
+</tr>
+  <tr><td style="padding-bottom: 20px;">Churchgate Mumbai - 400020, India.</td> 
+      <td></td>
+      <td></td>
+      <td style="padding-bottom: 15px;">Privacy and Policy</td>
+</tr>
+
+  <tr><td> Email</td></tr>
+  <tr><td>T:+91 22 67598800</td></tr>
+  <tr><td>T:+91 22 61580300</td></tr>
+
+
+
+
+   </table>
+
+</div>
+
+
+
+
+</body>
+</html>
